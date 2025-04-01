@@ -12,6 +12,7 @@
           "Prism.Unity": "9.0.537",
           "Prism.Wpf": "9.0.537",
           "ProfTraderDesktop.Core": "1.0.0",
+          "PropertyChanged.Fody": "4.1.0",
           "ScottPlot.WPF": "5.0.54",
           "Selenium.Support": "4.29.0",
           "Selenium.WebDriver": "4.29.0",
@@ -33,6 +34,7 @@
           }
         }
       },
+      "Fody/6.6.4": {},
       "HarfBuzzSharp/7.3.0.3": {
         "dependencies": {
           "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.3",
@@ -339,6 +341,11 @@
           }
         }
       },
+      "PropertyChanged.Fody/4.1.0": {
+        "dependencies": {
+          "Fody": "6.6.4"
+        }
+      },
       "ScottPlot/5.0.54": {
         "dependencies": {
           "HarfBuzzSharp.NativeAssets.Linux": "7.3.0.3",
@@ -548,6 +555,13 @@
       "path": "ccxt/4.4.67",
       "hashPath": "ccxt.4.4.67.nupkg.sha512"
     },
+    "Fody/6.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "path": "fody/6.6.4",
+      "hashPath": "fody.6.6.4.nupkg.sha512"
+    },
     "HarfBuzzSharp/7.3.0.3": {
       "type": "package",
       "serviceable": true,
@@ -736,6 +750,13 @@
       "sha512": "sha512-srsXhi7FRUFawsNoRkY67duMEGjZo3ff0FpqpkjeWkkAuLazlH1UmNVrvwnpaLQCBboexH/z6oGrLvpeocxgdw==",
       "path": "prism.wpf/9.0.537",
       "hashPath": "prism.wpf.9.0.537.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
+      "path": "propertychanged.fody/4.1.0",
+      "hashPath": "propertychanged.fody.4.1.0.nupkg.sha512"
     },
     "ScottPlot/5.0.54": {
       "type": "package",
